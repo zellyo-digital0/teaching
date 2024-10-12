@@ -1,0 +1,25 @@
+body {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #fffaf2;
+}
+.slick-slide {
+  margin: 0 25px; /* 50px gap between items (25px on each side) */
+}
+.slick-dots li button:before
+{
+  content: '';
+
+    color: black;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #c03a3b;
+    opacity: 1;
+}
+.slick-dots li.slick-active button:before
+{ 
+    background-color: #c03a3b;
+    opacity: 1;
+    
+}
